@@ -1,0 +1,16 @@
+.myorders{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(255, 255, 255);
+    width: 70%;
+    border-radius: 12px;
+    border: 1px solid rgb(189, 189, 189);
+    padding: 15px;
+}
+
+.boxactivities{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+}

@@ -1,0 +1,29 @@
+.plusbox{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    border-radius: 12px;
+    border: 1px solid rgb(189, 189, 189);
+    padding: 15px;
+}
+
+.subscriptionbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    background-color: rgb(224, 224, 224);
+    width: 400px;
+    height: 180px;
+    border-radius: 12px;    
+}
+
+.subscriptionbox button{
+    width: 300px;
+    border: none;
+    background-color: #b12ba4;
+    border-radius: 12px;
+    font-family: estedad-regular;
+    padding: 15px;
+    color: #fff;
+}

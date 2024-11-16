@@ -1,0 +1,35 @@
+.container-order{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    border-radius: 12px;
+    border: 1px solid rgb(189, 189, 189);
+    padding: 15px;
+}
+
+.box-center{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.tab-buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 450px;
+    border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+.tab-buttons button{
+    background-color: transparent;
+    border: none;
+    font-family: estedad-regular;
+    font-size: 16px;
+}
+
+
+.tab-buttons button.active {
+    color: rgb(255, 0, 0);
+  }
