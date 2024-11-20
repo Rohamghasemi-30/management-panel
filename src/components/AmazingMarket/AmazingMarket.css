@@ -1,0 +1,73 @@
+.container-amazingmarket{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.amazingmarket{
+    width: 98%;
+    background-color: #e0e0e2;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 20px;
+}
+
+.box-text{
+    width: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: estedad-regular;
+    color: #029a49;
+}
+
+.box-text span {
+    background-color: #029a49;
+    color: #fff;
+    border-radius: 25px;
+    padding: 0 5px 0 5px;
+}
+
+.productbox{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    font-family: estedad-regular;
+}
+
+.productbox img{
+    width: 74px;
+    height: 74px;
+    border-radius: 50px;
+}
+
+.button-product{
+    width: 144px;
+    height: 50px;
+    color: #029a49;
+    border-radius: 20px;
+    background-color: #fff;
+    padding: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.image-box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 98%;
+}
+
+.image-box img{
+    width: 300px;
+    height: 220px;
+    border-radius: 20px;
+}

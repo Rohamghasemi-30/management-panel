@@ -1,0 +1,79 @@
+@font-face{
+    src: url(../src/fonts/Estedad-Light.ttf);
+    font-family: estedad-light;
+  }
+
+
+.amazingbox{
+    width: 100%;
+    height: 294px;
+    background-color: rgb(255, 58, 58);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.amazing-icon{
+    width: 15%;
+    height: 294px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+    font-family: estedad-regular;
+}
+
+.amazing-icon h2{
+    width: 20px;
+}
+
+.product-box-ag{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 85%;
+}
+
+.product-ag{
+    width: 170px;
+    height: 254px;
+    background-color: #fff;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+
+}
+
+.product-ag img{
+    width: 132px;
+    height: 132px;
+}
+
+.product-ag p{
+    /* font-family: estedad-regular; */
+    font-family: estedad-light;
+    font-size: 14px;
+}
+
+.price-product-ag{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    font-family: estedad-light;
+}
+
+.price-product-ag .percentage{
+    background-color: rgb(202, 0, 0);
+    color: #fff;
+    font-family: estedad-light;
+    width: 40px;
+    border-radius: 25px;
+
+    text-align: center;
+}
