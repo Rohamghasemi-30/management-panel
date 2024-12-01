@@ -8,6 +8,7 @@ import Orders from './pages/Orders/Orders';
 import MyLists from './pages/MyLists/MyLists';
 import Views from './pages/Views/Views';
 import GiftCards from './pages/GiftCards/GiftCards';
+import Login from './pages/Login/Login';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path='views' element={<Views />} />
         <Route path='giftcards' element={<GiftCards />} />
         </Route>
+        <Route path='/login' element={<Login />} />
       </Routes>
     </div>
   )

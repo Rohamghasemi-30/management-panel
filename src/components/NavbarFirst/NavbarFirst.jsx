@@ -12,7 +12,7 @@ function NavbarFirst() {
            <input type="search" placeholder='جستوجو'/>
          </div>
          <div className="login">
-            <NavLink to="/profile"><i class="fa-regular fa-user fa-xl"></i> <i class="fa-solid fa-caret-down fa-xl"></i></NavLink>
+            <NavLink to="/login"><i class="fa-regular fa-user fa-xl"></i> <i class="fa-solid fa-caret-down fa-xl"></i></NavLink>
              <a href="#"><i class="fa-solid fa-cart-shopping"></i></a>
          </div>
        </div>
